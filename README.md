@@ -52,6 +52,12 @@ git config --global user.email <GITHUB_USER_EMAIL>
 git clone https://github.com/horothesun/dotfiles.git
 ```
 
+- `pass` and `browserpass`: run the install script then clone your private passwords repo into `~/.password-store`
+
+```bash
+./pass_install.sh
+```
+
 - `jEnv`: run the install script then use `jenv add <path>` to add any missing JDK version to jEnv and `jenv global 1.8` to set the default global JDK version
 
 ```bash
@@ -74,12 +80,6 @@ git clone https://github.com/horothesun/dotfiles.git
 
 ```bash
 ./pyenv_install.sh
-```
-
-- `pass` and `browserpass`: run the install script then clone your private passwords repo into `~/.password-store`
-
-```bash
-./pass_install.sh
 ```
 
 ## TODOs
