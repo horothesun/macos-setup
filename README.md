@@ -8,9 +8,9 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 
 ## Setup
 
-- App Store: login
 - System Preferences: customise
 - restart
+- App Store: login
 - CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
 - Homebrew: install and restart terminal app
 
@@ -40,10 +40,10 @@ brew install --cask google-chrome
 - launch each installed cask to configure it​
 - GitHub SSH key: generate and set ([guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent))
 - `git`: set global user name and email ([guide](https://stackoverflow.com/a/26368148))
-- git aliases
 
 ```bash
-./set_git_aliases.sh
+git config --global user.name <GITHUB_USER_NAME>
+git config --global user.email <GITHUB_USER_EMAIL>
 ```
 
 - dot-files
