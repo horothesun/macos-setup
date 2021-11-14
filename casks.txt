@@ -4,6 +4,7 @@ alfred
 macs-fan-control
 amethyst
 virtualbox
+docker
 libreoffice
 appcleaner
 visual-studio-code
