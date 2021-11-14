@@ -16,6 +16,7 @@ wget
 tldr
 gh
 tmux
+dive
 awscli
 cookiecutter
 youtube-dl
