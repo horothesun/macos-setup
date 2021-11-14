@@ -46,7 +46,7 @@ git config --global user.name <GITHUB_USER_NAME>
 git config --global user.email <GITHUB_USER_EMAIL>
 ```
 
-- dot-files
+- dot-files ([repo](https://github.com/horothesun/dotfiles))
 
 ```bash
 git clone https://github.com/horothesun/dotfiles.git
@@ -70,6 +70,12 @@ git clone https://github.com/horothesun/dotfiles.git
 ./nvm_install.sh
 ```
 
+- `pyenv`
+
+```bash
+./pyenv_install.sh
+```
+
 - `pass` and `browserpass`
 
 ```bash
@@ -81,6 +87,5 @@ brew install browserpass
 ## TODOs
 
 - Ruby gems (`gem update`).
-- `pyenv` and `tfenv`.
 - Programmatically set password at the beginning of `install.sh` (check out `sudo -v`).
 - IntelliJ IDEA Share IDE settings: [link](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
