@@ -31,13 +31,12 @@ brew install --cask google-chrome
 ```
 
 - official JetBrains Mono font: [link](https://www.jetbrains.com/lp/mono/)
-- run
+- run the install script then launch each installed cask to configure it​
 
 ```bash
 ./install.sh
 ```
 
-- launch each installed cask to configure it​
 - GitHub SSH key: generate and set ([guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent))
 - `git`: set global user name and email ([guide](https://stackoverflow.com/a/26368148))
 
