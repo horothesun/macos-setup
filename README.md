@@ -45,12 +45,6 @@ git config --global user.name <GITHUB_USER_NAME>
 git config --global user.email <GITHUB_USER_EMAIL>
 ```
 
-- dot-files ([repo](https://github.com/horothesun/dotfiles))
-
-```bash
-git clone https://github.com/horothesun/dotfiles.git
-```
-
 - `pass`: run the install script then clone your private passwords repo into `~/.password-store`
 
 ```bash
@@ -79,6 +73,12 @@ git clone https://github.com/horothesun/dotfiles.git
 
 ```bash
 ./pyenv_install.sh
+```
+
+- dot-files ([repo](https://github.com/horothesun/dotfiles))
+
+```bash
+git clone https://github.com/horothesun/dotfiles.git
 ```
 
 ## TODOs
