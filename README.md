@@ -12,13 +12,13 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 - System Preferences: customise
 - restart
 - CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
-- Homebrew
+- Homebrew: install and restart terminal app
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- OhMyZSH
+- OhMyZSH: install and restart terminal app
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -37,8 +37,22 @@ brew install --cask google-chrome
 ./install.sh
 ```
 
-- launch each installed cask to configure it
-- ...
+- launch each installed cask to configure it​
+- GitHub SSH key: generate and set ([guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent))
+- git: setup global user name and email ([guide](https://stackoverflow.com/a/26368148)), setup git shortcuts
+- dot-files
+
+```bash
+git clone https://github.com/horothesun/dotfiles.git
+```
+
+- `pass` and `browserpass`
+
+```bash
+brew install pass
+brew tap amar1729/formulae
+brew install browserpass
+```
 
 ## TODOs
 
