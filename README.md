@@ -1,4 +1,4 @@
-# macos-setup
+# macOS setup
 
 macOS initial setup.
 
