@@ -52,7 +52,7 @@ git config --global user.email <GITHUB_USER_EMAIL>
 git clone https://github.com/horothesun/dotfiles.git
 ```
 
-- `pass` and `browserpass`: run the install script then clone your private passwords repo into `~/.password-store`
+- `pass`: run the install script then clone your private passwords repo into `~/.password-store`
 
 ```bash
 ./pass_install.sh
