@@ -10,6 +10,7 @@ tree
 bat
 ncdu
 htop
+sbt
 lynx
 fd
 ranger
