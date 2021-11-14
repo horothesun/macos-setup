@@ -1,0 +1,12 @@
+alacritty
+lynx
+alfred
+macs-fan-control
+amethyst
+virtualbox
+libreoffice
+appcleaner
+visual-studio-code
+intellij-idea-ce
+vlc
+skype
