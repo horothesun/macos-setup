@@ -76,12 +76,10 @@ git clone https://github.com/horothesun/dotfiles.git
 ./pyenv_install.sh
 ```
 
-- `pass` and `browserpass`
+- `pass` and `browserpass`: run the install script then clone your private passwords repo into `~/.password-store`
 
 ```bash
-brew install pass
-brew tap amar1729/formulae
-brew install browserpass
+./pass_install.sh
 ```
 
 ## TODOs
