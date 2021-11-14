@@ -8,9 +8,10 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 
 ## Setup
 
+- App Store: login
 - System Preferences: customise
 - restart
-- CopyClip from App Store
+- CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
 - Homebrew
 
 ```bash
