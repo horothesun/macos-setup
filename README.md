@@ -88,8 +88,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
+- Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
+
 ## TODOs
 
-- Ruby gems (`gem update`).
 - Programmatically set password at the beginning of `install.sh` (check out `sudo -v`).
 - IntelliJ IDEA Share IDE settings: [link](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
