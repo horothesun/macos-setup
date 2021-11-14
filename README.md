@@ -52,7 +52,13 @@ git config --global user.email <GITHUB_USER_EMAIL>
 git clone https://github.com/horothesun/dotfiles.git
 ```
 
-- `jenv`, `rbenv`, `pyenv`, `nvm` and `tfenv`
+- `jEnv`: run the install script then use `jenv add <path>` to add any missing JDK version to jEnv
+
+```bash
+./jenv_install.sh
+```
+
+- `rbenv`, `pyenv`, `nvm` and `tfenv`
 
 - `pass` and `browserpass`
 
