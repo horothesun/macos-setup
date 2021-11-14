@@ -4,6 +4,7 @@ brew install jenv
 
 mkdir -p ~/.jenv/versions
 
+# https://github.com/AdoptOpenJDK/homebrew-openjdk
 brew tap homebrew/cask-versions
 brew install --cask temurin
 brew install --cask temurin11
@@ -16,6 +17,3 @@ echo 'JDK versions:'
 echo
 echo 'jEnv versions:'
 jenv versions
-
-echo
-echo 'Use `jenv add <path>` to add any missing JDK version to jEnv'

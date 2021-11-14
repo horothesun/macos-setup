@@ -52,13 +52,23 @@ git config --global user.email <GITHUB_USER_EMAIL>
 git clone https://github.com/horothesun/dotfiles.git
 ```
 
-- `jEnv`: run the install script then use `jenv add <path>` to add any missing JDK version to jEnv
+- `jEnv`: run the install script then use `jenv add <path>` to add any missing JDK version to jEnv and `jenv global 1.8` to set the default global JDK version
 
 ```bash
 ./jenv_install.sh
 ```
 
-- `rbenv`, `pyenv`, `nvm` and `tfenv`
+- `rbenv`
+
+```bash
+./rbenv_install.sh
+```
+
+- `nvm`
+
+```bash
+./nvm_install.sh
+```
 
 - `pass` and `browserpass`
 
@@ -70,5 +80,7 @@ brew install browserpass
 
 ## TODOs
 
+- Ruby gems (`gem update`).
+- `pyenv` and `tfenv`.
 - Programmatically set password at the beginning of `install.sh` (check out `sudo -v`).
 - IntelliJ IDEA Share IDE settings: [link](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
