@@ -4,7 +4,7 @@ macOS initial setup.
 
 ## Factory reset
 
-https://support.apple.com/en-gb/HT201065 
+Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 
 ## Setup
 
