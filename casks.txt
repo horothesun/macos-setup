@@ -1,5 +1,4 @@
 alacritty
-lynx
 alfred
 macs-fan-control
 amethyst
