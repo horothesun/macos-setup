@@ -39,7 +39,13 @@ brew install --cask google-chrome
 
 - launch each installed cask to configure it​
 - GitHub SSH key: generate and set ([guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent))
-- `git`: set global user name and email ([guide](https://stackoverflow.com/a/26368148)), set git shortcuts
+- `git`: set global user name and email ([guide](https://stackoverflow.com/a/26368148))
+- git aliases
+
+```bash
+./set_git_aliases.sh
+```
+
 - dot-files
 
 ```bash
