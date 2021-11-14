@@ -1,6 +1,6 @@
 # macOS setup
 
-macOS initial setup.
+macOS Homebrew-based initial setup.
 
 ## Factory reset
 
