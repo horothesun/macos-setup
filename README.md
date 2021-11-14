@@ -81,6 +81,13 @@ git config --global user.email <GITHUB_USER_EMAIL>
 git clone https://github.com/horothesun/dotfiles.git
 ```
 
+- `vim`: install the `vim-plug` plugins manager, then open `vim` and execute the `:PlugInstall` command
+
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
 ## TODOs
 
 - Ruby gems (`gem update`).
