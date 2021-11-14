@@ -24,3 +24,8 @@ echo "Installing the following casks:"
 cat $CASKS_FILE
 echo
 cat $CASKS_FILE | xargs brew install --cask
+
+
+# speedtest
+brew tap teamookla/speedtest
+brew install speedtest
