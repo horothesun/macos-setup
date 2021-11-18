@@ -78,7 +78,7 @@ git config --global user.email <GITHUB_USER_EMAIL>
 - dot-files ([repo](https://github.com/horothesun/dotfiles))
 
 ```bash
-git clone git@github.com:horothesun/dotfiles.git
+cd ~; git clone git@github.com:horothesun/dotfiles.git
 ```
 
 - `vim`: install the `vim-plug` plugins manager, then open `vim` and execute the `:PlugInstall` command
