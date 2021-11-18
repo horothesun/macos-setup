@@ -17,6 +17,7 @@ ranger
 wget
 tldr
 gh
+translate-shell
 tmux
 dive
 awscli
