@@ -2,12 +2,12 @@
 
 brew install rbenv
 
-rbenv install --list
+rbenv install --list-all
 
-rbenv install 2.7.4
-rbenv install 3.0.2
+rbenv install 2.7.5
+rbenv install 3.1.0
 
-rbenv global 3.0.2
+rbenv global 3.1.0
 
 echo
 echo 'Ruby versions:'
