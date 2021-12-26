@@ -2,6 +2,8 @@
 
 brew install pyenv
 
+pyenv install --list
+
 pyenv install 3.10.1
 
 pyenv global 3.10.1
