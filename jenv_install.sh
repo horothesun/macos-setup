@@ -10,6 +10,8 @@ brew install --cask temurin
 brew install --cask temurin11
 brew install --cask temurin8
 
+jenv global 1.8
+
 echo
 echo 'JDK versions:'
 /usr/libexec/java_home -V
