@@ -4,6 +4,7 @@ macs-fan-control
 amethyst
 virtualbox
 docker
+brave-browser
 libreoffice
 appcleaner
 visual-studio-code
