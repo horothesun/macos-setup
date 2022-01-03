@@ -2,6 +2,8 @@ git
 stow
 starship
 fzf
+stack
+vim
 watch
 ripgrep
 jq
