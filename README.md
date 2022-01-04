@@ -92,10 +92,10 @@ then launch `vim` and execute
 :PlugInstall
 ```
 
-- install the Bash, JSON and Markdown language servers support
+- install the Bash, JSON, Markdown and Scala language servers support
 
 ```vim
-:CocInstall coc-sh coc-json coc-markdownlint
+:CocInstall coc-sh coc-json coc-markdownlint coc-metals
 ```
 
 ## TODOs
