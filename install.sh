@@ -25,10 +25,5 @@ echo
 cat $CASKS_FILE | xargs brew install --cask
 
 
-# speedtest
-brew tap teamookla/speedtest
-brew install speedtest
-
-
 # git global config
 ./git_global_configs.sh
