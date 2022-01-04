@@ -3,6 +3,8 @@ stow
 starship
 fzf
 stack
+bash-language-server
+terraform-ls
 vim
 watch
 ripgrep

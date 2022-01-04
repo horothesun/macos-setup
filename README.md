@@ -24,14 +24,8 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-- Google Chrome: install then login with main account
-
-```bash
-brew install --cask google-chrome
-```
-
 - official JetBrains Mono font: [link](https://www.jetbrains.com/lp/mono/)
-- run the install script then launch each installed cask to configure it​
+- run the install script then launch each installed [cask](cask) to configure it
 
 ```bash
 ./install.sh
@@ -81,14 +75,28 @@ git config --global user.email <GITHUB_USER_EMAIL>
 cd ~; git clone git@github.com:horothesun/dotfiles.git
 ```
 
-- `vim`: install the `vim-plug` plugins manager, then open `vim` and execute the `:PlugInstall` command
+- Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
+
+### `vim`
+
+Install the `vim-plug` plugin manager
 
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-- Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
+then launch `vim` and execute
+
+```vim
+:PlugInstall
+```
+
+- install the Bash, JSON and Markdown language servers support
+
+```vim
+:CocInstall coc-sh coc-json coc-markdownlint
+```
 
 ## TODOs
 
