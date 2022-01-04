@@ -25,7 +25,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 - official JetBrains Mono font: [link](https://www.jetbrains.com/lp/mono/)
-- run the install script then launch [each installed cask](casks) to configure it
+- run the main install script then launch [each installed cask](casks) to configure it
 
 ```bash
 ./install.sh
