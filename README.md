@@ -86,16 +86,16 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-then launch `vim` and execute
+then install `vim` plugins (quit `vim` with `qa⏎` once completed)
 
-```vim
-:PlugInstall
+```bash
+vi -E +PlugInstall
 ```
 
-- install the Bash, JSON, Markdown and Scala language servers support
+and Bash, JSON, Markdown and Scala language servers support (quit `vim` with `qa⏎` once completed)
 
-```vim
-:CocInstall coc-sh coc-json coc-markdownlint coc-metals
+```bash
+vi -E +"CocInstall coc-sh coc-json coc-markdownlint coc-metals"
 ```
 
 ## TODOs
