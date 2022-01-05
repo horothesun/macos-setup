@@ -8,13 +8,15 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 
 ## Setup
 
-- System Preferences: customise `Sharing -> Computer Name`, etc.
+- System Preferences
+  - customise `Sharing -> Computer Name`,
+  - Apple ID login, etc.
 - restart
 - App Store: login
 - CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
-- Homebrew: [install](https://docs.brew.sh/Installation) and restart terminal app
-- OhMyZSH: [install](https://github.com/ohmyzsh/ohmyzsh#basic-installation) and restart terminal app
-- official JetBrains Mono font: [link](https://www.jetbrains.com/lp/mono/)
+- Homebrew: install ([guide](https://docs.brew.sh/Installation)) and restart terminal app
+- OhMyZSH: install ([guide](https://github.com/ohmyzsh/ohmyzsh#basic-installation)) and restart terminal app
+- official JetBrains Mono font ([home](https://www.jetbrains.com/lp/mono/))
 - run the main install script then launch [each installed cask](casks) to configure it
 
 ```bash
@@ -65,7 +67,7 @@ git config --global user.email <GITHUB_USER_EMAIL>
 cd ~ ; git clone git@github.com:horothesun/dotfiles.git ; cd dotfiles
 ```
 
-- `vim`: [install](https://github.com/junegunn/vim-plug#vim) the `vim-plug` plugin manager then install `vim` plugins and `CoC` extensions with
+- `vim`: install the `vim-plug` plugin manager ([guide](https://github.com/junegunn/vim-plug#vim)), then install `vim` plugins and `CoC` extensions with
 
 ```bash
 vi -c 'PlugInstall|qa' ; vi
