@@ -10,7 +10,7 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 
 - System Preferences
   - customise `Sharing -> Computer Name`,
-  - Apple ID login, etc.
+  - `Apple ID` login, etc.
 - restart
 - App Store: login
 - CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
