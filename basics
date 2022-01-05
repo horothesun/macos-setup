@@ -18,6 +18,7 @@ sbt
 lynx
 fd
 ranger
+curl
 wget
 tldr
 gh

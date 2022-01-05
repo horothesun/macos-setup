@@ -12,18 +12,8 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 - restart
 - App Store: login
 - CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
-- Homebrew: install and restart terminal app
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-- OhMyZSH: install and restart terminal app
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
+- Homebrew: install and restart terminal app ([guide](https://docs.brew.sh/Installation))
+- OhMyZSH: install and restart terminal app ([guide](https://github.com/ohmyzsh/ohmyzsh#basic-installation))
 - official JetBrains Mono font: [link](https://www.jetbrains.com/lp/mono/)
 - run the main install script then launch [each installed cask](casks) to configure it
 
@@ -37,12 +27,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```bash
 git config --global user.name <GITHUB_USER_NAME>
 git config --global user.email <GITHUB_USER_EMAIL>
-```
-
-- `pass`: run the install script then clone your private passwords repo into `~/.password-store`
-
-```bash
-./pass_install.sh
 ```
 
 - `jEnv`: run the install script then use `jenv add <path>` to add any missing JDK version to jEnv and `jenv global 1.8` to set the default global JDK version
@@ -90,6 +74,25 @@ then install `vim` plugins and `CoC` extensions
 
 ```bash
 vi -c 'PlugInstall|qa' ; vi
+```
+
+### `pass`
+
+Run the install script
+
+```bash
+./pass_install.sh
+```
+
+then clone your private passwords repo into `~/.password-store` ([guide](https://www.passwordstore.org/))
+
+```bash
+pass git init
+ls ~/.password-store
+pass git remote add origin git@github.com:<GIT_USER>/<GIT_REPO_NAME>.git
+# pass git branch --set-upstream-to=origin/master master
+pass git pull
+ls ~/.password-store
 ```
 
 ## TODOs
