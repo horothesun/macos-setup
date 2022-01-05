@@ -12,8 +12,8 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 - restart
 - App Store: login
 - CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
-- Homebrew: install and restart terminal app ([guide](https://docs.brew.sh/Installation))
-- OhMyZSH: install and restart terminal app ([guide](https://github.com/ohmyzsh/ohmyzsh#basic-installation))
+- Homebrew: [install](https://docs.brew.sh/Installation) and restart terminal app
+- OhMyZSH: [install](https://github.com/ohmyzsh/ohmyzsh#basic-installation) and restart terminal app
 - official JetBrains Mono font: [link](https://www.jetbrains.com/lp/mono/)
 - run the main install script then launch [each installed cask](casks) to configure it
 
@@ -27,6 +27,12 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 ```bash
 git config --global user.name <GITHUB_USER_NAME>
 git config --global user.email <GITHUB_USER_EMAIL>
+```
+
+- `pass`: run the install script then set your GPG keys and private passwords git repo (follow private notes)
+
+```bash
+./pass_install.sh
 ```
 
 - `jEnv`: run the install script then use `jenv add <path>` to add any missing JDK version to jEnv and `jenv global 1.8` to set the default global JDK version
@@ -59,41 +65,13 @@ git config --global user.email <GITHUB_USER_EMAIL>
 cd ~ ; git clone git@github.com:horothesun/dotfiles.git ; cd dotfiles
 ```
 
-- Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
-
-### `vim` plugins
-
-Install the `vim-plug` plugin manager
-
-```bash
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-then install `vim` plugins and `CoC` extensions
+- `vim`: [install](https://github.com/junegunn/vim-plug#vim) the `vim-plug` plugin manager then install `vim` plugins and `CoC` extensions with
 
 ```bash
 vi -c 'PlugInstall|qa' ; vi
 ```
 
-### `pass`
-
-Run the install script
-
-```bash
-./pass_install.sh
-```
-
-then clone your private passwords repo into `~/.password-store` ([guide](https://www.passwordstore.org/))
-
-```bash
-pass git init
-ls ~/.password-store
-pass git remote add origin git@github.com:<GIT_USER>/<GIT_REPO_NAME>.git
-# pass git branch --set-upstream-to=origin/master master
-pass git pull
-ls ~/.password-store
-```
+- Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
 
 ## TODOs
 
