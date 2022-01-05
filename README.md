@@ -77,7 +77,7 @@ cd ~ ; git clone git@github.com:horothesun/dotfiles.git ; cd dotfiles
 
 - Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
 
-### `vim`
+### `vim` plugins
 
 Install the `vim-plug` plugin manager
 
