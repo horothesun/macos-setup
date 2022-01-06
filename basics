@@ -6,6 +6,7 @@ fzf
 stack
 bash-language-server
 terraform-ls
+neovim
 vim
 watch
 ripgrep

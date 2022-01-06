@@ -67,10 +67,10 @@ git config --global user.email <GITHUB_USER_EMAIL>
 cd ~ ; git clone git@github.com:horothesun/dotfiles.git ; cd dotfiles
 ```
 
-- `vim`: install the `vim-plug` plugin manager ([guide](https://github.com/junegunn/vim-plug#vim)), then install `vim` plugins and `CoC` extensions with
+- Neovim: install the `vim-plug` plugin manager ([guide](https://github.com/junegunn/vim-plug#neovim)), then install `nvim` plugins and `CoC` extensions with
 
 ```bash
-vi -c 'PlugInstall|qa' ; vi
+nvim -c "PlugInstall|qa" ; nvim
 ```
 
 - Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
