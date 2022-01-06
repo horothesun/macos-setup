@@ -62,11 +62,6 @@ git config --global user.email <GITHUB_USER_EMAIL>
 ```
 
 - dot-files ([repo](https://github.com/horothesun/dotfiles))
-
-```bash
-cd ~ ; git clone git@github.com:horothesun/dotfiles.git ; cd dotfiles
-```
-
 - Neovim: install the `vim-plug` plugin manager ([guide](https://github.com/junegunn/vim-plug#neovim)), then install `nvim` plugins and `CoC` extensions with
 
 ```bash
