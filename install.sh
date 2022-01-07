@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # basics
-BASICS_FILE=basic
+BASICS_FILE=basics
 echo "Installing the following basic brews:"
 cat $BASICS_FILE
 echo
