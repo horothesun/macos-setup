@@ -13,7 +13,6 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
   - `Apple ID` login, etc.
 - restart
 - App Store: login
-- CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
 - Homebrew: install ([guide](https://docs.brew.sh/Installation)) and restart terminal app
 - OhMyZSH: install ([guide](https://github.com/ohmyzsh/ohmyzsh#basic-installation)) and restart terminal app
 - official JetBrains Mono font ([home](https://www.jetbrains.com/lp/mono/))
