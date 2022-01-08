@@ -4,11 +4,7 @@ brew install pass
 brew install amar1729/formulae/browserpass
 
 # PREFIX: different values between Intel and Apple Silicon (arm64)
-if [ "`arch`" = arm64 ]; then
-  export PREFIX=/opt/homebrew
-else
-  export PREFIX=/usr/local
-fi
+export PREFIX=`brew --prefix`
 
 # Reference: https://github.com/browserpass/browserpass-native#configure-browsers
 make -f $PREFIX/lib/browserpass/Makefile \
