@@ -8,7 +8,9 @@ git config --global push.followTags true
 
 # pretty logs
 git config --global alias.lg "log --pretty='%C(bold red)%h%Creset →%C(bold yellow)%d%Creset %s %C(dim white)(%ar) %C(dim white)[%an]%Creset' --graph"
-git config --global pager.log ''
+
+# disable branch pager
+git config --global pager.branch ''
 
 # disable config pager
 git config --global pager.config ''
