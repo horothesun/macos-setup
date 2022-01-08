@@ -10,9 +10,9 @@ else
   export HOMEBREW_OPT_DIR=/usr/local/opt
 fi
 
+# Initialise nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$HOMEBREW_OPT_DIR/nvm/nvm.sh" ] && . "$HOMEBREW_OPT_DIR/nvm/nvm.sh"
-[ -s "$HOMEBREW_OPT_DIR/nvm/etc/bash_completion.d/nvm" ] && . "$HOMEBREW_OPT_DIR/nvm/etc/bash_completion.d/nvm"
 
 nvm install --lts --default
 
