@@ -30,6 +30,7 @@ git config --global user.name <GITHUB_USER_NAME>
 git config --global user.email <GITHUB_USER_EMAIL>
 ```
 
+- *Apple Silicon (arm64) **ONLY***: `alacritty` native manual build (requires `rust`) ([guide](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#macos))
 - `pass`: run the install script then set your GPG keys and private passwords git repo (follow private notes)
 
 ```bash
