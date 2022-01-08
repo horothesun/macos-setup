@@ -13,7 +13,6 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
   - `Apple ID` login, etc.
 - restart
 - App Store: login
-- CopyClip from [App Store](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
 - Homebrew: install ([guide](https://docs.brew.sh/Installation)) and restart terminal app
 - OhMyZSH: install ([guide](https://github.com/ohmyzsh/ohmyzsh#basic-installation)) and restart terminal app
 - official JetBrains Mono font ([home](https://www.jetbrains.com/lp/mono/))
@@ -31,13 +30,14 @@ git config --global user.name <GITHUB_USER_NAME>
 git config --global user.email <GITHUB_USER_EMAIL>
 ```
 
+- *Apple Silicon (*`arm64`*) **ONLY***: `alacritty` native manual build (requires `rust`) ([guide](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#macos))
 - `pass`: run the install script then set your GPG keys and private passwords git repo (follow private notes)
 
 ```bash
 ./pass_install.sh
 ```
 
-- `jEnv`: run the install script then use `jenv add <path>` to add any missing JDK version to jEnv and `jenv global 1.8` to set the default global JDK version
+- `jEnv`: run the install script then use `jenv add <JDK_PATH>` to add any missing JDK version to jEnv and `jenv global <JDK_VERSION>` to set the default global JDK version
 
 ```bash
 ./jenv_install.sh

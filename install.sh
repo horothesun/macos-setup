@@ -25,5 +25,15 @@ echo
 cat $CASKS_FILE | xargs brew install --cask
 
 
+# Intel-only casks
+if [ "`arch`" != arm64 ]; then
+  INTEL_ONLY_CASKS_FILE=intel_only_casks
+  echo "Installing the following Intel-only casks:"
+  cat $INTEL_ONLY_CASKS_FILE
+  echo
+  cat $INTEL_ONLY_CASKS_FILE | xargs brew install --cask
+fi
+
+
 # git global config
 ./git_global_configs.sh
