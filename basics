@@ -16,7 +16,7 @@ tree
 bat
 ncdu
 htop
-rust
+rustup-init
 sbt
 lynx
 fd
