@@ -30,7 +30,8 @@ git config --global user.name <GITHUB_USER_NAME>
 git config --global user.email <GITHUB_USER_EMAIL>
 ```
 
-- *Apple Silicon (*`arm64`*) **ONLY***: `alacritty` universal binary manual build (requires `rustup-init`) ([guide](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#universal-binary)) `pass`: run the install script then set your GPG keys and private passwords git repo (follow private notes)
+- *Apple Silicon (*`arm64`*) **ONLY***: `alacritty` universal binary manual build (requires `rustup-init`) ([guide](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#universal-binary))
+- `pass`: run the install script then set your GPG keys and private passwords git repo (follow private notes)
 
 ```bash
 ./pass_install.sh
