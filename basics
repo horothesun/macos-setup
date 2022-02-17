@@ -4,6 +4,7 @@ stow
 starship
 fzf
 stack
+yarn
 bash-language-server
 terraform-ls
 neovim
