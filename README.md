@@ -36,10 +36,13 @@ git config --global user.email <GITHUB_USER_EMAIL>
 ./pass_install.sh
 ```
 
-- `jEnv`: run the install script then use `jenv add <JDK_PATH>` to add any missing JDK version to jEnv and `jenv global <JDK_VERSION>` to set the default global JDK version
+- `jEnv`: run the install script  then use `jenv add <JDK_PATH>` to add any missing JDK version to jEnv and `jenv global <JDK_VERSION>` to set the default global JDK version
 
 ```bash
 ./jenv_install.sh
+
+# make sure JAVA_HOME gets set
+jenv enable-plugin export
 ```
 
 - `rbenv`
