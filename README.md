@@ -75,12 +75,11 @@ nvim -c "PlugInstall|qa" ; nvim
 
 - Ruby gems: run `gem update` after initialising `rbenv` and setting the global
   Ruby version to the desired default one.
-- `alacritty` (new instance shortcut): copy the Apple Automator file in the
-  Services folder with `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`
-  then launch `System Preferences -> Keyboard -> Shortcuts` and set the
+- `alacritty` (new instance shortcut): setup the Apple Automator workflow with
+  `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`, then launch
+  `System Preferences -> Keyboard -> Shortcuts` and set the
   `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
-  N.B.: restart the system or each individual app to enable the shortcut
-  on them (`killall Finder` included).
+  N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
 
 ## TODOs
 
