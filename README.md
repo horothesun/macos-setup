@@ -79,6 +79,8 @@ nvim -c "PlugInstall|qa" ; nvim
   Services folder with `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`
   then launch `System Preferences -> Keyboard -> Shortcuts` and set the
   `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
+  N.B.: restart the system or each individual app to enable the shortcut
+  on them (`killall Finder` included).
 
 ## TODOs
 
