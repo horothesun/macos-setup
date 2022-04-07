@@ -36,7 +36,8 @@ git config --global user.email <GITHUB_USER_EMAIL>
 ./pass_install.sh
 ```
 
-- `jEnv`: run the install script then use `jenv add <JDK_PATH>` to add any missing JDK version to jEnv and `jenv global <JDK_VERSION>` to set the default global JDK version
+- `jEnv`: run the install script then use `jenv add <JDK_PATH>` to add any missing JDK version to jEnv and
+  `jenv global <JDK_VERSION>` to set the default global JDK version
 
 ```bash
 ./jenv_install.sh
@@ -65,13 +66,19 @@ jenv enable-plugin export
 ```
 
 - dot-files ([repo](https://github.com/horothesun/dotfiles))
-- Neovim: install the `vim-plug` plugin manager ([guide](https://github.com/junegunn/vim-plug#neovim)), then install `nvim` plugins and `CoC` extensions with
+- Neovim: install the `vim-plug` plugin manager ([guide](https://github.com/junegunn/vim-plug#neovim)),
+  then install `nvim` plugins and `CoC` extensions with
 
 ```bash
 nvim -c "PlugInstall|qa" ; nvim
 ```
 
-- Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
+- Ruby gems: run `gem update` after initialising `rbenv` and setting the global
+  Ruby version to the desired default one.
+- `alacritty` (new instance shortcut): copy the Apple Automator file in the
+  Services folder with `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`
+  then launch `System Preferences -> Keyboard -> Shortcuts` and set the
+  `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
 
 ## TODOs
 
