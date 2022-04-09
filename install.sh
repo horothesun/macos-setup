@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# basics
-BASICS_FILE=basics
+# formulae
+FORMULAE_FILE=formulae
 echo "Installing the following basic brews:"
-cat $BASICS_FILE
+cat $FORMULAE_FILE
 echo
-cat $BASICS_FILE | xargs brew install
+cat $FORMULAE_FILE | xargs brew install
 
 
 # fonts

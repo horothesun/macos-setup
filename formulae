@@ -9,6 +9,7 @@ bash-language-server
 terraform-ls
 neovim
 vim
+emojify
 watch
 ripgrep
 jq
