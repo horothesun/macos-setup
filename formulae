@@ -5,6 +5,7 @@ starship
 fzf
 stack
 yarn
+go
 bash-language-server
 terraform-ls
 neovim

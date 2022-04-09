@@ -75,7 +75,13 @@ nvim -c "PlugInstall|qa" ; nvim
 
 - Ruby gems: run `gem update` after initialising `rbenv` and setting the global
   Ruby version to the desired default one.
-- `alacritty` (new instance shortcut): setup the Apple Automator workflow with
+- `uni` - Unicode query CLI tool ([repo](https://github.com/arp242/uni))
+
+```bash
+./uni_install.sh
+```
+
+- `alacritty` - new instance shortcut: setup the Apple Automator workflow with
   `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`, then launch
   `System Preferences -> Keyboard -> Shortcuts` and set the
   `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
