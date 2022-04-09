@@ -2,7 +2,7 @@
 
 # formulae
 FORMULAE_FILE=formulae
-echo "Installing the following basic brews:"
+echo "Installing the following formulae:"
 cat $FORMULAE_FILE
 echo
 cat $FORMULAE_FILE | xargs brew install
