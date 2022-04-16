@@ -11,7 +11,7 @@ terraform-ls
 neovim
 vim
 watch
-rip
+rm-improved
 ripgrep
 jq
 yq
