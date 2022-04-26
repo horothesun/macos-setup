@@ -1,5 +1,6 @@
 bash
 git
+git-filter-repo
 stow
 starship
 fzf
