@@ -1,6 +1,7 @@
 bash
 git
 git-filter-repo
+gh
 stow
 starship
 fzf
@@ -27,7 +28,6 @@ ranger
 curl
 wget
 tldr
-gh
 translate-shell
 tmux
 dive
