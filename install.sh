@@ -33,7 +33,3 @@ if [[ "$(arch)" != "arm64" ]]; then
   echo
   <"${INTEL_ONLY_CASKS_FILE}" xargs -n 1 brew install --cask
 fi
-
-
-# git global config
-./git_global_configs.sh

@@ -25,9 +25,10 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 ```
 
 - GitHub SSH key: generate and set ([guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent))
-- `git`: set global user name and email ([guide](https://stackoverflow.com/a/26368148))
+- `git`: set global configuration, user name and email ([guide](https://stackoverflow.com/a/26368148))
 
 ```bash
+./git_global_configs.sh
 git config --global user.name <GITHUB_USER_NAME>
 git config --global user.email <GITHUB_USER_EMAIL>
 ```
