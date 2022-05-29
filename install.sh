@@ -5,7 +5,7 @@ FORMULAE_FILE="formulae"
 echo "Installing the following formulae:"
 cat "${FORMULAE_FILE}"
 echo
-brew install "$(cat "${FORMULAE_FILE}")"
+cat "${FORMULAE_FILE}" | xargs -n 1 brew install
 
 
 # fonts
@@ -14,7 +14,7 @@ FONTS_FILE="fonts"
 echo "Installing the following fonts:"
 cat "${FONTS_FILE}"
 echo
-brew install "$(cat "${FONTS_FILE}")"
+cat "${FONTS_FILE}" | xargs -n 1 brew install --cask
 
 
 # casks
@@ -22,16 +22,16 @@ CASKS_FILE="casks"
 echo "Installing the following casks:"
 cat "${CASKS_FILE}"
 echo
-brew install --cask "$(cat "${CASKS_FILE}")"
+cat "${CASKS_FILE}" | xargs -n 1 brew install --cask
 
 
 # Intel-only casks
-if [[ "$(arch)" != arm64 ]]; then
+if [[ "$(arch)" != "arm64" ]]; then
   INTEL_ONLY_CASKS_FILE="intel_only_casks"
   echo "Installing the following Intel-only casks:"
   cat "${INTEL_ONLY_CASKS_FILE}"
   echo
-  brew install --cask "$(cat "${INTEL_ONLY_CASKS_FILE}")"
+  cat "${INTEL_ONLY_CASKS_FILE}" | xargs -n 1 brew install --cask
 fi
 
 
