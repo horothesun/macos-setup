@@ -1,5 +1,7 @@
 # macOS setup
 
+[![CI](https://github.com/horothesun/macos-setup/actions/workflows/ci.yml/badge.svg)](https://github.com/horothesun/macos-setup/actions/workflows/ci.yml)
+
 macOS Homebrew-based initial setup.
 
 ## Factory reset
