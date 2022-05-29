@@ -10,7 +10,8 @@ export HOMEBREW_OPT_DIR
 # Initialise nvm
 NVM_DIR="${HOME}/.nvm"
 export NVM_DIR
-[[ -s "${HOMEBREW_OPT_DIR}/nvm/nvm.sh" ]] && . "${HOMEBREW_OPT_DIR}/nvm/nvm.sh"
+# shellcheck disable=SC1091
+[[ -s "${HOMEBREW_OPT_DIR}/nvm/nvm.sh" ]] && source "${HOMEBREW_OPT_DIR}/nvm/nvm.sh"
 
 nvm install --lts --default
 
