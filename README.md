@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/horothesun/macos-setup/actions/workflows/ci.yml/badge.svg)](https://github.com/horothesun/macos-setup/actions/workflows/ci.yml)
 
-macOS Homebrew-based initial setup.
+macOS Homebrew-based setup.
 
 ## Factory reset
 
