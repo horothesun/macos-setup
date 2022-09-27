@@ -18,7 +18,7 @@ Apple support guide: [link](https://support.apple.com/en-gb/HT201065).
 - Homebrew: install ([guide](https://docs.brew.sh/Installation)) and restart terminal app
 - OhMyZSH: install ([guide](https://github.com/ohmyzsh/ohmyzsh#basic-installation)) and restart terminal app
 - official JetBrains Mono font ([home](https://www.jetbrains.com/lp/mono/))
-- run the main install script then launch [each installed cask](casks) to configure it
+- run the main installation script, then launch [each installed cask](casks) to configure them
 
 ```bash
 ./install.sh
