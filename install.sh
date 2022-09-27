@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# update user password's timestamp (default timeout: 5 minutes)
+sudo --validate
+
 # formulae
 FORMULAE_FILE="formulae"
 echo "Installing the following formulae:"

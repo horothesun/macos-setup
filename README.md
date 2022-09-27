@@ -92,5 +92,4 @@ nvim -c "PlugInstall|qa" ; nvim
 
 ## TODOs
 
-- Programmatically set password at the beginning of `install.sh` (check out `sudo -v`).
 - IntelliJ IDEA Share IDE settings: [link](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
