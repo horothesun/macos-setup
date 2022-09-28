@@ -39,8 +39,7 @@ git config --global user.email <GITHUB_USER_EMAIL>
 ./pass_install.sh
 ```
 
-- `jEnv`: run the install script then use `jenv add <JDK_PATH>` to add any missing JDK version to jEnv and
-  `jenv global <JDK_VERSION>` to set the default global JDK version
+- environment managers
 
 ```bash
 ./jenv_install.sh
@@ -50,19 +49,13 @@ git config --global user.email <GITHUB_USER_EMAIL>
 jenv enable-plugin export
 ```
 
-- `rbenv`
-
 ```bash
 ./rbenv_install.sh
 ```
 
-- `nvm`
-
 ```bash
 ./nvm_install.sh
 ```
-
-- `pyenv`
 
 ```bash
 ./pyenv_install.sh
@@ -76,8 +69,7 @@ jenv enable-plugin export
 nvim -c "PlugInstall|qa" ; nvim
 ```
 
-- Ruby gems: run `gem update` after initialising `rbenv` and setting the global
-  Ruby version to the desired default one.
+- Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
 - `uni` - Unicode query CLI tool ([repo](https://github.com/arp242/uni))
 
 ```bash
