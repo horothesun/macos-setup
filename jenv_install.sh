@@ -35,6 +35,6 @@ mkdir -p "${HOME}/.jenv/versions"
 # https://github.com/AdoptOpenJDK/homebrew-openjdk
 brew tap homebrew/cask-versions
 
-brew install --cask temurin8 temurin11 temurin
+brew install --cask temurin8 temurin11 temurin17 temurin
 
 jenv_reset
