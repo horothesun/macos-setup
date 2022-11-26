@@ -36,10 +36,8 @@ mkdir -p "${HOME}/.jenv/versions"
 brew tap homebrew/cask-versions
 
 brew install --cask \
-  temurin \
-  temurin18 \
-  temurin17 \
+  temurin8 \
   temurin11 \
-  temurin8
+  temurin17
 
 jenv_reset
