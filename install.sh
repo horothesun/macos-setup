@@ -3,6 +3,10 @@
 # update user password's timestamp (default timeout: 5 minutes)
 sudo --validate
 
+# disable the "Last Login" / MOTD message on new terminal sessions
+# https://osxdaily.com/2010/06/22/remove-the-last-login-message-from-the-terminal/
+touch "${HOME}/.hushlogin"
+
 # formulae
 FORMULAE_FILE="formulae"
 echo "Installing the following formulae:"
