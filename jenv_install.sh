@@ -38,6 +38,7 @@ brew tap homebrew/cask-versions
 brew install --cask \
   temurin8 \
   temurin11 \
-  temurin17
+  temurin17 \
+  temurin21
 
 jenv_reset
