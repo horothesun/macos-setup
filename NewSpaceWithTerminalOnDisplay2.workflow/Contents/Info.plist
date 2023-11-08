@@ -12,7 +12,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>NewSpaceWithAlacrittyDisplay2</string>
+				<string>NewSpaceWithTerminalOnDisplay2</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
