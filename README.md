@@ -82,6 +82,23 @@ nvim -c "PlugInstall|qa" ; nvim
   `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
   N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
 
+- New space with terminal on display 1:
+  setup base script with `cp create_new_space_with_terminal.scpt ~/bin/`, then
+  setup Apple Automator workflow with
+  `cp -R NewSpaceWithTerminalOnDisplay1.workflow ~/Library/Services/`, then
+  launch `System Preferences -> Keyboard -> Shortcuts` and set the
+  `Services | General -> NewSpaceWithTerminalOnDisplay1` shortcut to `⌥⌘1`.
+  N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
+
+- New space with terminal on display 2:
+  setup base script with `cp create_new_space_with_terminal.scpt ~/bin/`, then
+  setup Apple Automator workflow with
+  `cp -R NewSpaceWithTerminalOnDisplay2.workflow ~/Library/Services/`, then
+  launch `System Preferences -> Keyboard -> Shortcuts` and set the
+  `Services | General -> NewSpaceWithTerminalOnDisplay2` shortcut to `⌥⌘2`.
+  N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
+
+
 ## TODOs
 
 - IntelliJ IDEA Share IDE settings: [link](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
