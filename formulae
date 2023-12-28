@@ -17,6 +17,7 @@ rm-improved
 ripgrep
 jq
 yq
+dasel
 tree
 bat
 ncdu
