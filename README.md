@@ -1,6 +1,7 @@
 # macOS setup
 
 [![CI](https://github.com/horothesun/macos-setup/actions/workflows/ci.yml/badge.svg)](https://github.com/horothesun/macos-setup/actions/workflows/ci.yml)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovatebot.com)
 
 macOS Homebrew-based setup.
 
