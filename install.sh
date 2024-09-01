@@ -16,7 +16,6 @@ echo
 
 
 # fonts
-brew tap homebrew/cask-fonts
 FONTS_FILE="fonts"
 echo "Installing the following fonts:"
 cat "${FONTS_FILE}"
