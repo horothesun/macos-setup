@@ -78,11 +78,17 @@ nvim -c "PlugInstall|qa" ; nvim
 ./uni_install.sh
 ```
 
-- `alacritty` - new instance shortcut: setup the Apple Automator workflow with
-  `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`, then launch
-  `System Preferences -> Keyboard -> Shortcuts` and set the
-  `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
-  N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
+- IntelliJ IDEA: `Settings -> Settings Sync` with your email.
+
+- `alacritty` - new instance shortcut:
+  - setup the Apple Automator workflow with `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`,
+    then launch `System Preferences -> Keyboard -> Shortcuts` and set the
+    `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
+    N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
+  - after `stow`-ing Alacritty's dotfile/scripts, run
+    `ln -s ~/bin/alacritty_new_window_same_dir.sh /usr/local/bin/alacritty_new_window_same_dir.sh`
+
+## TODOs
 
 - New space with terminal on display 1:
   setup base script with `cp create_new_space_with_terminal.scpt ~/bin/`, then
@@ -99,8 +105,3 @@ nvim -c "PlugInstall|qa" ; nvim
   launch `System Preferences -> Keyboard -> Shortcuts` and set the
   `Services | General -> NewSpaceWithTerminalOnDisplay2` shortcut to `⌥⌘2`.
   N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
-
-
-## TODOs
-
-- IntelliJ IDEA Share IDE settings: [link](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
