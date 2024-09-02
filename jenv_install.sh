@@ -1,5 +1,10 @@
 #!/bin/bash
 
+function init_jenv() {
+  export PATH="${HOME}/.jenv/bin:${PATH}"
+  eval "$(jenv init -)"
+}
+
 function aux_jenv_reset() {
   cd "$1" && printf "%s\n" "${PWD##*/}"
 }
@@ -36,4 +41,5 @@ brew install --cask \
   "temurin@17" \
   "temurin@21"
 
+init_jenv
 jenv_reset
