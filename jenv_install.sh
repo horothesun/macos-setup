@@ -32,7 +32,7 @@ brew install jenv
 
 mkdir -p "${HOME}/.jenv/versions"
 
-brew install --cask
+brew install --cask \
   "temurin@17" \
   "temurin@21"
 
