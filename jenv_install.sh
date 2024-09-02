@@ -32,13 +32,8 @@ brew install jenv
 
 mkdir -p "${HOME}/.jenv/versions"
 
-# https://github.com/AdoptOpenJDK/homebrew-openjdk
-brew tap homebrew/cask-versions
-
-brew install --cask \
-  temurin8 \
-  temurin11 \
-  temurin17 \
-  temurin21
+brew install --cask
+  "temurin@17" \
+  "temurin@21"
 
 jenv_reset
