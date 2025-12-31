@@ -11,6 +11,11 @@ yarn
 go
 bash-language-server
 terraform-ls
+basedpyright
+pyright
+python-lsp-server
+ruff
+lua-language-server
 neovim
 vim
 watch
