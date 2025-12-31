@@ -72,12 +72,6 @@ nvim -c "PlugInstall|qa" ; nvim
 ```
 
 - Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
-- `uni` - Unicode query CLI tool ([repo](https://github.com/arp242/uni))
-
-```bash
-./uni_install.sh
-```
-
 - IntelliJ IDEA: `Settings -> Settings Sync` with your email.
 
 - `alacritty` - new instance shortcut:
