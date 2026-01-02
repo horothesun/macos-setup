@@ -10,6 +10,7 @@ stack
 yarn
 go
 bash-language-server
+shellcheck
 terraform-ls
 basedpyright
 pyright

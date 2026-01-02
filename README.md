@@ -65,7 +65,7 @@ jenv enable-plugin export
 
 - dot-files ([repo](https://github.com/horothesun/dotfiles))
 - Neovim: install the `vim-plug` plugin manager ([guide](https://github.com/junegunn/vim-plug#neovim)),
-  then install `nvim` plugins and `CoC` extensions with
+  then install `nvim` plugins with
 
 ```bash
 nvim -c "PlugInstall|qa" ; nvim
