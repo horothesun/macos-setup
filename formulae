@@ -12,6 +12,7 @@ go
 bash-language-server
 shellcheck
 terraform-ls
+typescript-language-server
 basedpyright
 pyright
 python-lsp-server
