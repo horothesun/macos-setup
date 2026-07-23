@@ -1,6 +1,6 @@
 #!/bin/bash
 
-brew install pyenv
+brew install --yes pyenv
 
 pyenv install --list
 

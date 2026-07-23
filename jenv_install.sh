@@ -33,11 +33,11 @@ function jenv_reset () {
 }
 
 
-brew install jenv
+brew install --yes jenv
 
 mkdir -p "${HOME}/.jenv/versions"
 
-brew install --cask \
+brew install --cask --yes \
   "temurin@17" \
   "temurin@21"
 

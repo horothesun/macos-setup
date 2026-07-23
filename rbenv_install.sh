@@ -1,6 +1,6 @@
 #!/bin/bash
 
-brew install rbenv
+brew install --yes rbenv
 
 rbenv install --list-all
 

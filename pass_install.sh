@@ -1,7 +1,7 @@
 #!/bin/bash
 
-brew install pass
-brew install amar1729/formulae/browserpass
+brew install --yes pass
+brew install --yes amar1729/formulae/browserpass
 
 # PREFIX: different values between Intel and Apple Silicon (arm64)
 PREFIX=$(brew --prefix)

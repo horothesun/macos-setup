@@ -1,6 +1,6 @@
 #!/bin/bash
 
-brew install nvm
+brew install --yes nvm
 
 # HOMEBREW_OPT_DIR: different values between Intel and Apple Silicon (arm64)
 HOMEBREW_OPT_DIR="$(brew --prefix)/opt"
