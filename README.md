@@ -64,23 +64,19 @@ jenv enable-plugin export
 ```
 
 - dot-files ([repo](https://github.com/horothesun/dotfiles))
-- Neovim: install the `vim-plug` plugin manager ([guide](https://github.com/junegunn/vim-plug#neovim)),
-  then install `nvim` plugins with
-
-```bash
-nvim -c "PlugInstall|qa" ; nvim
-```
-
+- NeoVim: run for the first time and install all vim.pack dependencies.
 - Ruby gems: run `gem update` after initialising `rbenv` and setting the global Ruby version to the desired default one.
 - IntelliJ IDEA: `Settings -> Settings Sync` with your email.
-
-- `alacritty` - new instance shortcut:
-  - setup the Apple Automator workflow with `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`,
-    then launch `System Preferences -> Keyboard -> Shortcuts` and set the
-    `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
-    N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
-  - after `stow`-ing Alacritty's dotfile/scripts, run
-    `ln -s ~/bin/alacritty_new_window_same_dir.sh /usr/local/bin/alacritty_new_window_same_dir.sh`
+- `alacritty`
+  - setup [guide](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#macos)
+  - set `alias alacritty="/Applications/Alacritty.app/Contents/MacOS/alacritty"`
+  - new instance shortcut:
+    - setup the Apple Automator workflow with `cp -R NewAlacrittyInstance.workflow ~/Library/Services/`,
+      then launch `System Preferences -> Keyboard -> Shortcuts` and set the
+      `Services | General -> NewAlacrittyInstance` shortcut to `⌥⌘/`.
+      N.B.: restart the system or each individual app to enable the shortcut on them (`killall Finder` included).
+    - after `stow`-ing Alacritty's dotfile/scripts, run
+      `ln -s ~/bin/alacritty_new_window_same_dir.sh /usr/local/bin/alacritty_new_window_same_dir.sh`
 
 ## TODOs
 

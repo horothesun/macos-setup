@@ -7,7 +7,7 @@ stow
 starship
 fzf
 stack
-yarn
+rust
 go
 bash-language-server
 shellcheck
